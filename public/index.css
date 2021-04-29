@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ html {
   width: 100%;
   z-index: 999;
   padding: 5px 0;
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
   transition: all 0.3s ease;
   background: #fff;
   opacity: 80%;
@@ -53,7 +53,7 @@ html {
   display: block;
   color: black;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   margin-left: 25px;
   transition: color 0.3s ease;
 }
@@ -113,12 +113,12 @@ html {
 /* home section styling */
 .home {
   display: flex;
-  background: url("images/banner.jpg") no-repeat center;
+  background: url('images/banner.jpg') no-repeat center;
   background-size: cover;
   height: 100vh;
   color: #111111;
   min-height: 500px;
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .home .max-width {
@@ -160,14 +160,14 @@ html {
 
 /* about section styling */
 .about {
-  background: url("images/about_banner.svg") no-repeat center;
+  background: url('images/about_banner.svg') no-repeat center;
   background-size: cover;
 }
 
 .about .about-content .left {
   width: 45%;
   height: 100%;
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .about .about-content .right {
@@ -215,7 +215,7 @@ html {
 }
 
 .teams .max-width {
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .teams .maintitle {
@@ -275,11 +275,11 @@ html {
 /* service section styling */
 .services {
   color: #111111;
-  background: url("images/service_banner.svg") no-repeat center;
+  background: url('images/service_banner.svg') no-repeat center;
   background-size: cover;
 }
 .services .max-width {
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 .services .maintitle {
   font-size: 48px;
@@ -304,12 +304,12 @@ html {
   text-align: center;
   border-radius: 20px;
   padding: 30px 25px;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: all 0.3s ease;
 }
 
 .services .serv-content .card:hover {
-  background: #682cda;
+  /* background: #682cda; */
 }
 
 .services .serv-content .card .box {
@@ -327,7 +327,7 @@ html {
 }
 
 .services .serv-content .card:hover i {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .services .serv-content .card .text {
@@ -342,7 +342,7 @@ html {
 
 /* contact section styling */
 .contact .max-width {
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 .contact .maintitle {
   font-size: 48px;
@@ -382,7 +382,7 @@ html {
   outline: none;
   padding: 0 15px;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 .contact .column form .textarea textarea {
   padding-top: 10px;
@@ -411,11 +411,13 @@ html {
 
 /* footer section styling */
 footer {
-  background: url("images/footer_banner.svg");
+  background: url('images/footer_banner.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 20px 23px;
   color: #fff;
   text-align: center;
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 footer span a {
   color: #682cda;
@@ -435,13 +437,13 @@ section {
 .teams,
 .contact,
 footer {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -454,7 +456,7 @@ section .title {
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* responsive media query start */
@@ -485,7 +487,7 @@ section .title {
     z-index: 999;
   }
   .menu-btn i.active::before {
-    content: "\f00d";
+    content: '\f00d';
   }
   .navbar .menu {
     position: fixed;
